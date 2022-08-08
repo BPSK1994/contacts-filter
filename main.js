@@ -10,6 +10,7 @@ function filterNames(event) {
 
     // Node List
     let contactItems = document.querySelectorAll('.collection__item');
+    console.log(contactItems);
 
     Array.from(contactItems).forEach(function(item) {
         let contactName = item.firstChild.textContent;
